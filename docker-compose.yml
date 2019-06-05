@@ -10,3 +10,4 @@ services:
         - proxy
 networks:
   proxy:
+    external: true

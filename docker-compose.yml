@@ -4,7 +4,7 @@ services:
     build: ./
     container_name: the_enmore_inn_web
     labels:
-        - "traefik.frontend.rule=Host:test.theenmoreinn.com"
+        - "traefik.frontend.rule=Host:theenmoreinn.com"
         - "traefik.port=80"
     networks:
         - proxy
